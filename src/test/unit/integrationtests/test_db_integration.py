@@ -12,8 +12,10 @@ therefore is added to 'unit' folder.
 """
 class DBIntegrationTests(unittest.TestCase):
 
-    # Test a record inserted into the database is added.
+    """ Test a record inserted into the database is added. """
     def test_insert(self):
+
+        print('**** DBIntegrationTests - running test test_insert ****')
 
         sensor_instance_generator = SensorInstanceGenerator()
         sensor_instance = next(sensor_instance_generator)

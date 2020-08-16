@@ -11,9 +11,11 @@ from src.app.generator.SensorInstanceGenerator import SensorInstanceGenerator
 DB integrationtests test. If this test is located in 'integrationtests' folder it is ignored,
 therefore is added to 'unit' folder.
 """
-class DBIntegrationTests(unittest.TestCase):
+class DtoStructureIntegrationTests(unittest.TestCase):
 
     def test_dto_structure(self):
+
+        print('**** DtoStructureIntegrationTests - running test test_dto_structure ****')
 
         sensor_instance_generator = SensorInstanceGenerator()
         sensor_instance = next(sensor_instance_generator)

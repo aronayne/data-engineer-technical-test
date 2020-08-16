@@ -22,7 +22,7 @@ High level overview:
 * Navigate to project home
 * Issue command (replace ENVIRONMENT_NAME with your environment) 'conda create --name ENVIRONMENT_NAME --file requirements.txt'
 
-May be required to active the environment: ' conda activate ENVIRONMENT_NAME '
+Activate the newly created environment: ' conda activate ENVIRONMENT_NAME '
 # Testing
 
 To run all tests navigate to data-engineer-technical-test dir and run 
@@ -87,6 +87,6 @@ Send e-mail to adrian.ronayne@gmail.com for login credentials.
 
 * logger instance for Process target function does not print log messages, currently using print statements
 
-* A "raise Empty" exception may thrown during execution.  Cannot guarantee if a queue is empty using the empty() method. 
+* A "raise Empty" exception may be thrown during execution.  Cannot guarantee if a queue is empty using the empty() method. 
   From the docs: "Because of multithreading/multiprocessing semantics, this is not reliable."
   src:https://docs.python.org/3/library/multiprocessing.html

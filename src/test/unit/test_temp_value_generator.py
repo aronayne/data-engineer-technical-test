@@ -4,7 +4,7 @@ from src.app.generator.TemperatureValueGenerator import TemperatureValueGenerato
 
 """
 Test generated values from TemperatureValueGenerator
-The TemperatureValueGenerator is_random_seed attribute is set to true which allows
+The TemperatureValueGenerator is_random_seed attribute is set to True which allows
 for deterministic generator values.
 """
 class TemperatureValueGeneratorTests(unittest.TestCase):
@@ -15,6 +15,8 @@ class TemperatureValueGeneratorTests(unittest.TestCase):
 
     """ Test the generate temperature values """
     def test_generate_values(self):
+
+        print('**** TemperatureValueGeneratorTests - running test test_test_generate_valueswrite ****')
 
         assert next(self.temperatureValueGenerator) == 89
         assert next(self.temperatureValueGenerator) == 96

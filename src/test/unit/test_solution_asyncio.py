@@ -10,11 +10,13 @@ class TestSolutionAsyncIo(unittest.TestCase):
 
     """ Test items written the database can be accessed from the DB """
     def test_solution_asyncio_write(self):
-        """ initialise the sensor data queue """
+
+        print('**** TestSolutionAsyncIo - running test test_solution_asyncio_write ****')
 
         time_interval = 0
         max_queue_size = 3
 
+        """ initialise the sensor data queue """
         sensor_data_queue = asyncio.Queue()
 
         solution_async_io = SolutionAsyncIO()

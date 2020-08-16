@@ -8,12 +8,15 @@ class SensorInstanceContent(me.Document):
 """
 Ideally use a multi db setup for test versus prod testing.
 """
-class DBIntegrationTests(unittest.TestCase):
+class DBUnitTests(unittest.TestCase):
 
     def test_save(self):
+
+        print('**** DBUnitTests - running test test_save ****')
+
         db_conn = me.connect(db='mongotest', host='mongomock://localhost')
-        db_conn.drop_database('mongotest')
 
         sensor_instance_content = SensorInstanceContent()
         sensor_instance_content.save()
         assert len(SensorInstanceContent.objects()) == 1
+

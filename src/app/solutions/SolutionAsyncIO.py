@@ -159,7 +159,7 @@ if __name__ == '__main__':
     solution_async_io = SolutionAsyncIO()
 
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(solution_async_io.write_queue(sensor_data_queue, loop, AppConfig.max_queue_size,
+    loop.run_until_complete(solution_async_io.write_queue(sensor_data_queue, loop, AppConfig.max_size_per_process,
                                                           AppConfig.sensor_write_interval_seconds))
 
     loop.run_until_complete(solution_async_io.read_queue(sensor_data_queue, AppConfig.sensor_read_interval_seconds))

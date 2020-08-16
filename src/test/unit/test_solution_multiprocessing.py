@@ -15,6 +15,8 @@ class TestSolutionMultiprocessing(unittest.TestCase):
     """ Test items written the database can be accessed from the DB """
     def test_write(self):
 
+        print('**** SolutionMultiProcessing - running test test_write ****')
+
         sensor_data_queue = Queue()
         max_queue_size = 3
         sensor_write_interval = 0
@@ -39,39 +41,38 @@ class TestSolutionMultiprocessing(unittest.TestCase):
         self.assertEqual("", str(value_error.exception))
 
     """
-    Test all values created by read process are processed by write process.
-    This is a unit test, not inserting into Database.
-    
-    A "raise Empty" exception may thrown during execution of this test. If this occurs the test is not
-    broken. Cannot guarantee if queue is empty using empty() queue method. From the docs: "Because of 
-    multithreading/multiprocessing semantics, this is not reliable.: src:https://docs.python.org/3/library/multiprocessing.html
+    Test all items written to queue are read from queue.
+    This is a unit test, not inserting into Database. 
     """
-    def test_read(self):
+    def test_write_and_read(self):
 
-        sensor_data_queue = Queue(5)
-        max_queue_size = 3
+        print('**** SolutionMultiProcessing - running test test_write_and_read ****')
+
+        sensor_data_queue = Queue()
+        max_queue_size_read = 2
+        max_queue_size_write = 2
         sensor_write_interval = 0
         sensor_read_interval = 0
 
         """starting more read that write operations in attempt to ensure (not gauranteed) queue is empty at end of 
         test """
         n_processes_write = 2
-        n_processes_read = 5
+        n_processes_read = 2
 
         multiprocessing_solution = SolutionMultiProcessing()
         write_processes = multiprocessing_solution.start_write_queue_process(sensor_data_queue, sensor_write_interval,
-                                                                             n_processes_write, max_queue_size)
+                                                                             n_processes_write, max_queue_size_write)
         read_processes = multiprocessing_solution.start_read_queue_process(sensor_data_queue, sensor_read_interval,
-                                                                           n_processes_read,
+                                                                           n_processes_read,  max_queue_size_read,
                                                                            False)
-        for process in write_processes:
-            process.join()
 
-        for process in read_processes:
+        for process in write_processes + read_processes:
+            print('**** SolutionMultiProcessing - Joining process %s', process , '****')
             process.join()
 
         self.assertTrue(len(write_processes), n_processes_write)
         self.assertTrue(len(read_processes), n_processes_read)
 
-        # time.sleep(2)
         self.assertTrue(sensor_data_queue.empty())
+
+        print('Finished test')

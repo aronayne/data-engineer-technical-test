@@ -1,7 +1,7 @@
 import json
 import logging.config
 import time
-from multiprocessing import Process, Queue
+from multiprocessing import Process, Queue, Lock
 from logging.config import dictConfig
 
 from src.app.config import AppConfig
@@ -26,6 +26,7 @@ class SolutionMultiProcessing():
         """ Setup the logger for this class """
         dictConfig(logging_config)
         self.logger = logging.getLogger()
+        self.logger.info('Initialising new instance of SolutionMultiProcessing')
 
     """ Read an instance of sensor data from the generator """
     def get_sensor_data(self):
@@ -65,13 +66,14 @@ class SolutionMultiProcessing():
     ----------
     sensor_data_queue: queue of sensor data items 
     time_interval: the time between readings of the sensor data generator
-    max_queue_size: the maximum size of the sensor data queue to populate
+        max_queue_size: the max number of items to write to the sensor data queue for this process
     """
     def write_queue(self, sensor_data_queue, time_interval, max_queue_size):
 
         for write_queue_epoch in range(0, max_queue_size):
             sensor_instance = self.get_sensor_data()
             print("SolutionMultiProcessing - Sensor generated temperature_f value :", str(sensor_instance.content.temperature_f))
+            print('SolutionMultiProcessing - Writing item to queue')
             sensor_data_queue.put(self.get_enriched_sensor_data(sensor_instance))
             time.sleep(time_interval)
 
@@ -91,22 +93,31 @@ class SolutionMultiProcessing():
     Reading from the queue is tightly coupled with DB insertion, for loose coupling create a new separate queue 
     to store DB operations, a new set of thread processes reads from this queue 
     
+    Using empty() check instead explicitly using an incrementing counter to check the queue size may result in a
+    "raise Empty" exception. Using empty() does not guarantee if the queue is empty, from the docs: "Because of 
+    multithreading/multiprocessing semantics, this is not reliable. 
+    src:https://docs.python.org/3/library/multiprocessing.html
+    
     Parameters
     ----------
     sensor_data_queue: queue of sensor data readings
     time_interval: the interval in seconds between reading items from the queue
+    max_queue_size: the max number of items to read from the sensor data queue for this process
     insert_into_db: Boolean parameter, if True then insert items from the queue into database
     """
-    def read_queue(self, sensor_data_queue, time_interval, insert_into_db=True):
-        while not sensor_data_queue.empty():
-            self.logger.info('Getting item from queue')
+    def read_queue(self, sensor_data_queue, time_interval, max_queue_size, insert_into_db=True):
+        read_item_count = 0
+        while read_item_count < max_queue_size:
+            read_item_count += 1
+            print('self.read_item_count' ,read_item_count)
+            print('SolutionMultiProcessing - Reading item from queue')
             item = sensor_data_queue.get(timeout=0.3)
             item_json = json.loads(item)
             if insert_into_db:
-                self.logger.info('Inserting sensor data into DB')
+                print('Inserting sensor data into DB')
                 self.insert_into_db(item_json)
 
-            time.sleep(time_interval)
+        time.sleep(time_interval)
 
     """ 
     Starts the Process to write data to the sensor data queue 
@@ -116,10 +127,12 @@ class SolutionMultiProcessing():
     sensor_data_queue: queue to write
     sensor_write_interval: time interval in seconds between write operations to the sensor_data_queue
     n_processes: number of concurrent processes to write to sensor_data_queue
-    max_queue_size: the max number of items to write to sensor_data_queue
+    max_queue_size: the max number of items to write to sensor_data_queue for this process
     """
     def start_write_queue_process(self, sensor_data_queue, sensor_write_interval, n_processes, max_queue_size):
 
+        self.logger.info('Number of write queue processes %s' , str(n_processes))
+        self.logger.info('Max queue size: %s', str(n_processes * max_queue_size))
         self.logger.info("Start writing to queue process")
 
         write_processes = []
@@ -145,15 +158,16 @@ class SolutionMultiProcessing():
                     default is false.
     """
     def start_read_queue_process(self, sensor_data_queue, sensor_read_interval,
-                                 n_processes, insert_into_db=True):
+                                 n_processes, max_queue_size, insert_into_db=True):
 
+        self.logger.info('Number of read queue processes %s', str(n_processes))
         self.logger.info('Start reading from Queue')
 
         read_processes = []
         for epoch in range(0 , n_processes):
             read_processes.append(Process(target=self.read_queue,
                                          args=(sensor_data_queue, sensor_read_interval,
-                                               insert_into_db)))
+                                               max_queue_size, insert_into_db)))
 
         for read_process in read_processes:
             read_process.start()
@@ -168,14 +182,15 @@ if __name__ == '__main__':
     write_processes = multiprocessing_solution.start_write_queue_process(sensor_data_queue,
                                                                          AppConfig.sensor_write_interval_seconds,
                                                                          AppConfig.number_write_processes,
-                                                                         AppConfig.max_queue_size)
+                                                                         AppConfig.max_size_per_process)
 
     """ Create and start the read queue processes """
     read_processes = multiprocessing_solution.start_read_queue_process(sensor_data_queue,
                                                                        AppConfig.sensor_read_interval_seconds,
-                                                                       AppConfig.number_read_processes)
+                                                                       AppConfig.number_read_processes,
+                                                                       AppConfig.max_size_per_process)
 
-    """ 
+    """
     join all processes - write processes are joined prior to read processes
     """
     for process in write_processes + read_processes:
