@@ -4,8 +4,16 @@ Solutions using multiprocessing and asyncio are provided.
  
 ## asycnio
 
+High level overview:
+
+[.text-center]
+.asyncio
+[#asyncio]
+image::https://raw.githubusercontent.com/aronayne/data-engineer-technical-test/master/readme-images/asyncio.png[width=800,height=400,align="center"]
 
 ## multiprocessing
+
+High level overview:
 
 # Installation
 
