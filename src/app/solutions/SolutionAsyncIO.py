@@ -16,7 +16,8 @@ from src.app.utils.AppUtils import AppUtils
 from logging.config import dictConfig
 
 """
-Responsible for setting up the observer and subscriber 
+Creates up the observer and subscriber for writing to a 
+shared queue. Reads data from the queue and inserts into the mongoDB database.
 """
 class SolutionAsyncIO():
 

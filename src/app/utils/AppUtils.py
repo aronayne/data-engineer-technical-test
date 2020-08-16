@@ -2,23 +2,21 @@ import uuid
 
 from scipy.constants import convert_temperature
 
-from src.app.config import AppConfig
-
 """
-Utility class
+Contains various utility functions used throughout the app.
 """
 class AppUtils(object):
 
     """
     Return a globally unique identifier.
-    As are serializing uuid convert to a String as uuid is not serializable
+    As are serializing uuid convert to a String as uuid.uuid4() is not serializable
     """
     @staticmethod
     def get_uuid_str():
         return str(uuid.uuid4())
 
     """
-    Return the degrees in celcius
+    Return the degrees in celsius
     """
     @staticmethod
     def fahrenheit_to_celsius(degrees_in_fahrenheit):
