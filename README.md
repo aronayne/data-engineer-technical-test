@@ -18,7 +18,7 @@ High level overview:
 
 # Installation
 
-* git clone
+* git clone https://github.com/aronayne/data-engineer-technical-test.git
 * Navigate to project home
 * Issue command (replace ENVIRONMENT_NAME with your environment) 'conda create --name ENVIRONMENT_NAME --file requirements.txt'
 
@@ -27,12 +27,14 @@ High level overview:
 ## asyncio solution
 
 Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
-  'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionMultiProcessing.py'
+  
+'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionMultiProcessing.py'
 
 ## multiprocessing solution
 
 Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
-  'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionAsyncio.py'
+
+'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionAsyncio.py'
 
 ## IDE
 
@@ -41,7 +43,9 @@ where PROJECT_PARENT_DIR is the dir project is contained.
 
 # Testing
 
-Navigate to cloned app dir and run 'python -m unittest' to run all tests.
+To run all tests navigate to data-engineer-technical-test dir and run 
+
+'python -m unittest' .
 
 # Watching for DB collection changes
 
@@ -55,14 +59,10 @@ PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/Collection
 # Database
 
 Utilises cloud mongoDB (https://www.mongodb.com/) .
-Database credenitals are stored in AppConfig.py
+Database credentials are stored in AppConfig.py
 
 mongo_db_username = ****
 
 mongo_db_password = ****
 
 Send e-mail to adrian.ronayne@gmail.com for login credentials.
-
-# Improvments
-
-
