@@ -32,7 +32,15 @@ class SolutionAsyncIO():
     def random_generator(self):
         return next(self.temperature_value_generator)
 
-    """ Create the observable """
+        """ 
+    Write an item to the asyncio queue
+
+    Parameters
+    ----------
+    iter: the asynchronous iterable which is an iterable of sensor data
+    loop: from asyncio docs "Coroutines will be wrapped in a future and scheduled in the event
+    loop"
+    """
     def create_observable(self, iter, loop):
         """
         setup the observable
@@ -88,7 +96,14 @@ class SolutionAsyncIO():
             self.logger.info('Inserting sensor data into DB collection')
             conn.db.technicalTestCollection.insert_one(item)
 
-    """ Return a sensor reading """
+    """ 
+    Yield a sensor data reading
+
+    Parameters
+    ----------
+    max_queue_size: the max items to read from the queue
+    sensor_write_interval_seconds: the interval in seconds between writing items to the queue
+    """
     async def get_sensor_data_iter(self, max_queue_size, sensor_write_interval_seconds):
         for write_queue_epoch in range(0, max_queue_size):
 
@@ -126,7 +141,7 @@ class SolutionAsyncIO():
 
     Parameters
     ----------
-    param sensor_data_queue: queue of sensor data readings
+    sensor_data_queue: queue of sensor data readings
     loop: from asyncio docs "Coroutines will be wrapped in a future and scheduled in the event
     loop"
     max_queue_size: the max items to write to the queue

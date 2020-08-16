@@ -37,3 +37,8 @@ tk=8.6.10=hb0a8c7a_0
 wheel=0.34.2=py_1
 xz=5.2.5=haf1e3a3_1
 zlib=1.2.11=1007
+
+pymongo~=3.10.1
+scipy~=1.5.2
+rx~=3.1.1
+mongoengine~=0.20.0
