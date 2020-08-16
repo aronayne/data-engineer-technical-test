@@ -82,3 +82,11 @@ mongo_db_username = ****
 mongo_db_password = ****
 
 Send e-mail to adrian.ronayne@gmail.com for login credentials.
+
+# Issues
+
+* logger instance for Process target function does not print log messages, currently using print statements
+
+* A "raise Empty" exception may thrown during execution.  Cannot guarantee if a queue is empty using the empty() method. 
+  From the docs: "Because of multithreading/multiprocessing semantics, this is not reliable. 
+  src:https://docs.python.org/3/library/multiprocessing.html

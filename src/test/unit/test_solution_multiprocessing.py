@@ -43,7 +43,7 @@ class TestSolutionMultiprocessing(unittest.TestCase):
     This is a unit test, not inserting into Database.
     
     A "raise Empty" exception may thrown during execution of this test. If this occurs the test is not
-    broken. Cannot gaurantee if queue is empty using empty() queue method. From the docs: "Because of 
+    broken. Cannot guarantee if queue is empty using empty() queue method. From the docs: "Because of 
     multithreading/multiprocessing semantics, this is not reliable.: src:https://docs.python.org/3/library/multiprocessing.html
     """
     def test_read(self):
@@ -64,11 +64,9 @@ class TestSolutionMultiprocessing(unittest.TestCase):
         read_processes = multiprocessing_solution.start_read_queue_process(sensor_data_queue, sensor_read_interval,
                                                                            n_processes_read,
                                                                            False)
-        print('Joining write_processes')
         for process in write_processes:
             process.join()
 
-        print('Joining read_processes')
         for process in read_processes:
             process.join()
 

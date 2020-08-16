@@ -71,7 +71,7 @@ class SolutionMultiProcessing():
 
         for write_queue_epoch in range(0, max_queue_size):
             sensor_instance = self.get_sensor_data()
-            self.logger.info("Sensor generated temperature_f value : %s" , str(sensor_instance.content.temperature_f))
+            print("SolutionMultiProcessing - Sensor generated temperature_f value :", str(sensor_instance.content.temperature_f))
             sensor_data_queue.put(self.get_enriched_sensor_data(sensor_instance))
             time.sleep(time_interval)
 
@@ -84,11 +84,10 @@ class SolutionMultiProcessing():
     """
     def insert_into_db(self, item):
         with MongoDBConnection() as conn:
-            self.logger.info('Inserting sensor data into DB collection')
+            print('SolutionMultiProcessing - Inserting sensor data into DB collection')
             conn.db.technicalTestCollection.insert_one(item)
 
     """ 
-    Check for empty as the read thread can start before the write thread 
     Reading from the queue is tightly coupled with DB insertion, for loose coupling create a new separate queue 
     to store DB operations, a new set of thread processes reads from this queue 
     
@@ -180,5 +179,5 @@ if __name__ == '__main__':
     join all processes - write processes are joined prior to read processes
     """
     for process in write_processes + read_processes:
-        multiprocessing_solution.logger.info('In SolutionMultiProcessing - Joining process %s', process)
+        multiprocessing_solution.logger.info('Joining process %s', process)
         process.join()
