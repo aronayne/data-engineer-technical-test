@@ -1,10 +1,9 @@
 # Overview
 
-Data is gen
-Pipeline is ingest -> enrich -> store
-
-
+Solutions using multiprocessing and asyncio are provided.
+ 
 ## asycnio
+
 
 ## multiprocessing
 
@@ -18,11 +17,13 @@ Pipeline is ingest -> enrich -> store
 
 ## asyncio solution
 
-Issue command (replace PROJECT_PARENT_DIR with parent dir of project)  'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionMultiProcessing.py'
+Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
+  'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionMultiProcessing.py'
 
 ## multiprocessing solution
 
-Issue command (replace PROJECT_PARENT_DIR with parent dir of project)  'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionAsyncio.py'
+Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
+  'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionAsyncio.py'
 
 ## IDE
 
