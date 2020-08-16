@@ -118,7 +118,7 @@ class SolutionAsyncIO():
     Read an item from the queue and insert to DB
     
     Reading from the queue is tightly coupled with DB insertion.
-    It appears easier to achieve loose coupling using asyncio as can return a queue with
+    It appears easier to achieve loose coupling using asyncio as can populate and return a queue containing
     the DB inserts.
     
     Parameters
