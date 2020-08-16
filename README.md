@@ -8,11 +8,6 @@ High level overview:
 
 ![ScreenShot](https://raw.githubusercontent.com/aronayne/data-engineer-technical-test/master/readme-images/asyncio.png)
 
-[.text-center]
-.asyncio
-[#asyncio]
-image::
-## multiprocessing
 
 High level overview:
 
