@@ -33,11 +33,6 @@ where PROJECT_PARENT_DIR is the dir project is contained.
 
 Navigate to cloned app dir and run 'python -m unittest' to run all tests.
 
- mongoengine (http://mongoengine.org/) is used for unit testing of DB, this could be incorporated into main code also
- instead if explicitly converting to json and writing to DB.
-
-SensorInstanceContent
-
 # Watching for DB collection changes
 
 Project contains utility script CollectionWatchUtility.py to watch the collection.
