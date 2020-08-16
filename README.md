@@ -6,11 +6,12 @@ Solutions using multiprocessing and asyncio are provided.
 
 High level overview:
 
+![ScreenShot](https://raw.githubusercontent.com/aronayne/data-engineer-technical-test/master/readme-images/asyncio.png)
+
 [.text-center]
 .asyncio
 [#asyncio]
-image::https://raw.githubusercontent.com/aronayne/data-engineer-technical-test/master/readme-images/asyncio.png[width=800,height=400,align="center"]
-
+image::
 ## multiprocessing
 
 High level overview:
