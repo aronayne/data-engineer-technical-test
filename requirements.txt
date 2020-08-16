@@ -1,0 +1,44 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+ca-certificates=2020.6.20=hecda079_0
+certifi=2020.6.20=py38h32f6830_0
+configparser=5.0.0=py_0
+dnspython=1.16.0=py_1
+ecdsa=0.13=py_0
+gmp=6.2.0=h4a8c4bd_2
+idna=2.10=pyh9f0ad1d_0
+libblas=3.8.0=17_openblas
+libcblas=3.8.0=17_openblas
+libcxx=10.0.1=h5f48129_0
+libffi=3.2.1=hb1e8313_1007
+libgfortran=4.0.0=2
+liblapack=3.8.0=17_openblas
+libopenblas=0.3.10=openmp_h63d9170_4
+llvm-openmp=10.0.1=h28b9765_0
+mongoengine=0.20.0=py38h32f6830_2
+mongomock=3.20.0=pyh9f0ad1d_0
+ncurses=6.2=hb1e8313_1
+numpy=1.19.1=py38h598c1e0_0
+openssl=1.1.1g=haf1e3a3_1
+pip=20.2.2=py_0
+pycryptodome=3.9.7=py38h646a047_1
+pymongo=3.10.1=py38hc84c608_2
+python=3.8.5=h85f3143_2_cpython
+python_abi=3.8=1_cp38
+readline=8.0=h0678c8f_2
+rx=3.1.1=py_0
+scipy=1.5.2=py38h1402333_0
+sentinels=1.0.0=py_1
+setuptools=49.6.0=py38h32f6830_0
+six=1.15.0=pyh9f0ad1d_0
+sqlite=3.32.3=h960bd1c_1
+tk=8.6.10=hb0a8c7a_0
+wheel=0.34.2=py_1
+xz=5.2.5=haf1e3a3_1
+zlib=1.2.11=1007
+
+pymongo~=3.10.1
+scipy~=1.5.2
+rx~=3.1.1
+configparser~=5.0.0

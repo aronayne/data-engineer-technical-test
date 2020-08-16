@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0abb85ac-9cb1-4a87-8426-e95e47704d1f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fyA83T6HyTcqpHakeS6N9bJAJj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/unit" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/unit" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/app/src/solutions" />
+      <recent name="$PROJECT_DIR$/app/tests/unit" />
+      <recent name="$PROJECT_DIR$/playground" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/unit/integration" />
+      <recent name="$PROJECT_DIR$/DELETE-BEFORE-COMMITING" />
+      <recent name="$PROJECT_DIR$/app1" />
+      <recent name="$PROJECT_DIR$/app/src" />
+      <recent name="$PROJECT_DIR$/app/src/config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.SolutionMultiProcessing">
+    <configuration name="SolutionAsyncIO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data-engineer-technical-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app/solutions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/solutions/SolutionAsyncIO.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionAsyncio" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="data-engineer-technical-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/src/solutions/SolutionAsyncio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SolutionMultiProcessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data-engineer-technical-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app/solutions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/solutions/SolutionMultiProcessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_solution_asyncio.TestSolutionAsyncIo.test_solution_asyncio_write" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="data-engineer-technical-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/unit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_solution_asyncio.TestSolutionAsyncIo.test_solution_asyncio_write&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing.test_read" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="data-engineer-technical-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_solution_multiprocessing.TestSolutionMultiprocessing.test_read&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing.test_write" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="data-engineer-technical-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_solution_multiprocessing.TestSolutionMultiprocessing.test_write&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.SolutionAsyncio" />
+      <item itemvalue="Python.SolutionMultiProcessing" />
+      <item itemvalue="Python.SolutionAsyncIO" />
+      <item itemvalue="Python tests.Unittests for test_solution_asyncio.TestSolutionAsyncIo.test_solution_asyncio_write" />
+      <item itemvalue="Python tests.Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing.test_read" />
+      <item itemvalue="Python tests.Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing.test_write" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.SolutionMultiProcessing" />
+        <item itemvalue="Python.SolutionAsyncIO" />
+        <item itemvalue="Python tests.Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing.test_write" />
+        <item itemvalue="Python tests.Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing.test_read" />
+        <item itemvalue="Python tests.Unittests for test_solution_asyncio.TestSolutionAsyncIo.test_solution_asyncio_write" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0abb85ac-9cb1-4a87-8426-e95e47704d1f" name="Default Changelist" comment="" />
+      <created>1597179795298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597179795298</updated>
+      <workItem from="1597179839690" duration="3648000" />
+      <workItem from="1597215459053" duration="16421000" />
+      <workItem from="1597303832951" duration="19977000" />
+      <workItem from="1597352370215" duration="4505000" />
+      <workItem from="1597389651850" duration="1111000" />
+      <workItem from="1597390848526" duration="34241000" />
+      <workItem from="1597480571585" duration="42416000" />
+      <workItem from="1597582000855" duration="542000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.asciidoc" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="133" y="513" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597572261349">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="75" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1597530328826" />
+    <state x="133" y="513" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1597572261349" />
+    <state x="100" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597492581350">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="100" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1597492581350" />
+    <state x="313" y="428" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597430704557">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="313" y="428" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1597430704557" />
+    <state width="1228" height="329" key="GridCell.Tab.0.bottom" timestamp="1597577348699">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1388" height="179" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597534824781" />
+    <state width="1228" height="329" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1597577348699" />
+    <state width="1228" height="329" key="GridCell.Tab.0.center" timestamp="1597577348699">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1388" height="179" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597534824778" />
+    <state width="1228" height="329" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1597577348699" />
+    <state width="1228" height="329" key="GridCell.Tab.0.left" timestamp="1597577348698">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1388" height="179" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597534824778" />
+    <state width="1228" height="329" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1597577348698" />
+    <state width="1228" height="329" key="GridCell.Tab.0.right" timestamp="1597577348699">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1388" height="179" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597534824780" />
+    <state width="1228" height="329" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1597577348699" />
+    <state width="1228" height="487" key="GridCell.Tab.1.bottom" timestamp="1597517763760">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1228" height="487" key="GridCell.Tab.1.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1597517763760" />
+    <state width="1228" height="487" key="GridCell.Tab.1.center" timestamp="1597517763759">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1228" height="487" key="GridCell.Tab.1.center/0.23.2560.1417@0.23.2560.1417" timestamp="1597517763759" />
+    <state width="1228" height="487" key="GridCell.Tab.1.left" timestamp="1597517763759">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1228" height="487" key="GridCell.Tab.1.left/0.23.2560.1417@0.23.2560.1417" timestamp="1597517763759" />
+    <state width="1228" height="487" key="GridCell.Tab.1.right" timestamp="1597517763760">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1228" height="487" key="GridCell.Tab.1.right/0.23.2560.1417@0.23.2560.1417" timestamp="1597517763760" />
+    <state x="39" y="283" key="SettingsEditor" timestamp="1597425404200">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="39" y="283" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1597425404200" />
+    <state x="273" y="625" width="728" height="574" key="find.popup" timestamp="1597577128373">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="154" y="326" width="703" height="574" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1597531217364" />
+    <state x="273" y="625" width="728" height="574" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1597577128373" />
+    <state x="221" y="341" width="838" height="1032" key="search.everywhere.popup" timestamp="1597522721729">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="221" y="341" width="838" height="1032" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1597522721729" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/app/solutions/SolutionAsyncIO.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_DtoStructureIntegrationTests_DBIntegrationTests_test_insert.coverage" NAME="Unittests for DtoStructureIntegrationTests.DBIntegrationTests.test_insert Coverage Results" MODIFIED="1597425220622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_dto_structure_integration_DBIntegrationTests_test_dto_structure.coverage" NAME="Unittests for test_dto_structure_integration.DBIntegrationTests.test_dto_structure Coverage Results" MODIFIED="1597492936287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$SensorInstanceGenerator.coverage" NAME="SensorInstanceGenerator Coverage Results" MODIFIED="1597392902984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/generator" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_TestSensor_TestStringMethods_test_upper.coverage" NAME="Unittests for TestSensor.TestStringMethods.test_upper Coverage Results" MODIFIED="1597183940882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_solution_asyncio_TestSolutionAsyncIo_test_write.coverage" NAME="Unittests for test_solution_asyncio.TestSolutionAsyncIo.test_write Coverage Results" MODIFIED="1597568725187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$MongoDBConnection.coverage" NAME="MongoDBConnection Coverage Results" MODIFIED="1597431234712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/db" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_QueueFun_QueueFunTests_test_add_queue.coverage" NAME="Unittests for QueueFun.QueueFunTests.test_add_queue Coverage Results" MODIFIED="1597442865016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/playground" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$SensorInstance.coverage" NAME="SensorInstance Coverage Results" MODIFIED="1597345445880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dto" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$SensorInstanceFahrenheit.coverage" NAME="SensorInstanceFahrenheitContent Coverage Results" MODIFIED="1597345997963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dto" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_solution_multiprocessing_TestSolutionMultiprocessing.coverage" NAME="Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing Coverage Results" MODIFIED="1597516670888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$CollectionWatchUtility.coverage" NAME="CollectionWatchUtility Coverage Results" MODIFIED="1597484810782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_solution_asyncio_TestSolutionAsyncIo_test_solution_asyncio_write.coverage" NAME="Unittests for test_solution_asyncio.TestSolutionAsyncIo.test_solution_asyncio_write Coverage Results" MODIFIED="1597572198763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$CollectionWatchUtility__1_.coverage" NAME="CollectionWatchUtility (1) Coverage Results" MODIFIED="1597534820463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_solution_asyncio_TestSolutionAsyncIo.coverage" NAME="Unittests for test_solution_asyncio.TestSolutionAsyncIo Coverage Results" MODIFIED="1597572118823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_in_Tester_py.coverage" NAME="Unittests in Tester.py Coverage Results" MODIFIED="1597408740194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/playground" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$test_db.coverage" NAME="test_db Coverage Results" MODIFIED="1597498566809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$SensorInstanceEncoder.coverage" NAME="SensorInstanceEncoder Coverage Results" MODIFIED="1597346068962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/encoder" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$SolutionAsyncio.coverage" NAME="SolutionAsyncio Coverage Results" MODIFIED="1597445902208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_solution_multiprocessing_TestSolutionMultiprocessing_test_insert.coverage" NAME="Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing.test_insert Coverage Results" MODIFIED="1597498915834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Database.coverage" NAME="Database Coverage Results" MODIFIED="1597356421860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$PoolOrNot.coverage" NAME="PoolOrNot Coverage Results" MODIFIED="1597491979869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$q2.coverage" NAME="q2 Coverage Results" MODIFIED="1597526234610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app/solutions" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_Tester_QueueFunTests.coverage" NAME="Unittests for Tester.QueueFunTests Coverage Results" MODIFIED="1597406440870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/playground" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1597425262806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Inheritence.coverage" NAME="Inheritence Coverage Results" MODIFIED="1597500332936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app/solutions" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_in_test_solution_multiprocessing_py.coverage" NAME="Unittests in test_solution_multiprocessing.py Coverage Results" MODIFIED="1597523062608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$TemperatureGenerator.coverage" NAME="TemperatureValueGenerator Coverage Results" MODIFIED="1597222197379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_in_test_db_integration_py.coverage" NAME="Unittests in test_db_integration.py Coverage Results" MODIFIED="1597426689420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/test/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$DBTests.coverage" NAME="DBTests Coverage Results" MODIFIED="1597352000135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_db_integration_DBIntegrationTests.coverage" NAME="Unittests for test_db_integration.DBIntegrationTests Coverage Results" MODIFIED="1597429969766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/test/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$DBIntegrationTests.coverage" NAME="DBIntegrationTests Coverage Results" MODIFIED="1597413859750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/integration" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_DBIntegrationTests_DBIntegrationTests_test_insert.coverage" NAME="Unittests for DBIntegrationTests.DBIntegrationTests.test_insert Coverage Results" MODIFIED="1597416208926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_in_unit.coverage" NAME="Unittests in unit Coverage Results" MODIFIED="1597425256405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_temp_value_generator_TemperatureValueGeneratorTests.coverage" NAME="Unittests for test_temp_value_generator.TemperatureValueGeneratorTests Coverage Results" MODIFIED="1597522732558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_DBIntegrationTests_TemperatureValueGeneratorTests22.coverage" NAME="Unittests for DBIntegrationTests.TemperatureValueGeneratorTests22 Coverage Results" MODIFIED="1597413890519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_QueueFun_QueueFunTests.coverage" NAME="Unittests for QueueFun.QueueFunTests Coverage Results" MODIFIED="1597442964220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/playground" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_Tester_QueueFunTests_test_empty_queue.coverage" NAME="Unittests for Tester.QueueFunTests.test_empty_queue Coverage Results" MODIFIED="1597405608924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/playground" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_solution_multiprocessing_TestSolutionMultiprocessing_test_write.coverage" NAME="Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing.test_write Coverage Results" MODIFIED="1597572262407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_temp_value_generator_TemperatureValueGeneratorTests_test_generate_values.coverage" NAME="Unittests for test_temp_value_generator.TemperatureValueGeneratorTests.test_generate_values Coverage Results" MODIFIED="1597522855845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$SolutionAsyncIO.coverage" NAME="SolutionAsyncIO Coverage Results" MODIFIED="1597574679075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app/solutions" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_in_TemperatureValueGeneratorTests_py.coverage" NAME="Unittests in TemperatureValueGeneratorTests.py Coverage Results" MODIFIED="1597413809414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$SolutionMultiProcessing.coverage" NAME="SolutionMultiProcessing Coverage Results" MODIFIED="1597577348691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/app/solutions" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_DBIntegrationTests_DBIntegrationTests.coverage" NAME="Unittests for DBIntegrationTests.DBIntegrationTests Coverage Results" MODIFIED="1597415163171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_test_solution_multiprocessing_TestSolutionMultiprocessing_test_read.coverage" NAME="Unittests for test_solution_multiprocessing.TestSolutionMultiprocessing.test_read Coverage Results" MODIFIED="1597572233271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$SolutionMultiProcessing__1_.coverage" NAME="SolutionMultiProcessing Coverage Results" MODIFIED="1597530864970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$TemperatureValueGenerator.coverage" NAME="TemperatureValueGenerator Coverage Results" MODIFIED="1597351019745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generator" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$con_process.coverage" NAME="con-process Coverage Results" MODIFIED="1597311168630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$SolutionAsyncio__1_.coverage" NAME="SolutionAsyncio (1) Coverage Results" MODIFIED="1597401680424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/src/solutions" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$solution.coverage" NAME="solution Coverage Results" MODIFIED="1597224049765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_TemperatureValueGeneratorTests_TemperatureValueGeneratorTests_test_generate_values.coverage" NAME="Unittests for TemperatureValueGeneratorTests.TemperatureValueGeneratorTests.test_generate_values Coverage Results" MODIFIED="1597351359575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$observer_subscriber.coverage" NAME="SolutionAsyncio Coverage Results" MODIFIED="1597352152688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_TemperatureValueGeneratorTests_TemperatureValueGeneratorTests.coverage" NAME="Unittests for TemperatureValueGeneratorTests.TemperatureValueGeneratorTests Coverage Results" MODIFIED="1597413709587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/tests/unit" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$playground.coverage" NAME="playground Coverage Results" MODIFIED="1597222612156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$QueueFun.coverage" NAME="QueueFun Coverage Results" MODIFIED="1597405500760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/playground" />
+    <SUITE FILE_PATH="coverage/data_engineer_technical_test$Unittests_for_GeneratorTests_Test.coverage" NAME="Unittests for GeneratorTests.Test Coverage Results" MODIFIED="1597307582989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  </component>
+</project>
