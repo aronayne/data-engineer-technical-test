@@ -109,7 +109,6 @@ class SolutionMultiProcessing():
         read_item_count = 0
         while read_item_count < max_queue_size:
             read_item_count += 1
-            print('self.read_item_count' ,read_item_count)
             print('SolutionMultiProcessing - Reading item from queue')
             item = sensor_data_queue.get(timeout=0.3)
             item_json = json.loads(item)
