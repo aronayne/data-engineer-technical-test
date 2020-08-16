@@ -69,7 +69,7 @@ PYTHONPATH=~/data-engineer-technical-test python src/CollectionWatchUtility.py
 
 ## IDE
 
-If running solutions from IDE such as PyCharm ensure working directory is set to PROJECT_PARENT_DIR/data-engineer-technical-test/
+If running scripts or tests from an IDE such as PyCharm ensure working directory is set to PROJECT_PARENT_DIR/data-engineer-technical-test/
 where PROJECT_PARENT_DIR is the dir project is contained.
 
 # Database
