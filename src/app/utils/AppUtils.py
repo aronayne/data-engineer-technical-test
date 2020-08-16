@@ -22,4 +22,4 @@ class AppUtils(object):
     """
     @staticmethod
     def fahrenheit_to_celsius(degrees_in_fahrenheit):
-        return round(convert_temperature(degrees_in_fahrenheit, 'Fahrenheit', 'Celsius') , AppConfig.precision_value)
+        return int(convert_temperature(degrees_in_fahrenheit, 'Fahrenheit', 'Celsius'))

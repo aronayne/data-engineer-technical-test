@@ -53,11 +53,6 @@ For example on MacOS if cloned project into ~ dir use:
 
 PYTHONPATH=~/data-engineer-technical-test python src/app/solutions/SolutionMultiProcessing.py
 
-## IDE
-
-If running solutions from IDE such as PyCharm ensure working directory is set to PROJECT_PARENT_DIR/data-engineer-technical-test/
-where PROJECT_PARENT_DIR is the dir project is contained.
-
 # Watching for DB collection changes
 
 Project contains utility script CollectionWatchUtility.py to watch the collection.
@@ -65,7 +60,17 @@ As items are added to the mongoDB collection CollectionWatchUtility.py will prin
 added items to console.
 
 Issue command (replace PROJECT_PARENT_DIR with parent dir of project)
-PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/CollectionWatchUtility.py
+PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python src/CollectionWatchUtility.py
+
+For example on MacOS if cloned project into ~ dir use:
+
+PYTHONPATH=~/data-engineer-technical-test python src/CollectionWatchUtility.py
+
+
+## IDE
+
+If running solutions from IDE such as PyCharm ensure working directory is set to PROJECT_PARENT_DIR/data-engineer-technical-test/
+where PROJECT_PARENT_DIR is the dir project is contained.
 
 # Database
 
