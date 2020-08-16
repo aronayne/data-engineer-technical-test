@@ -3,14 +3,14 @@
 Solutions using multiprocessing and asyncio are provided.
 
 
-## multiprocessing
+## multiprocessing solution
 
 High level overview:
 
 ![ScreenShot](https://raw.githubusercontent.com/aronayne/data-engineer-technical-test/master/readme-images/multiprocessing.png)
 
 
-## asycnio
+## asycnio solution
 
 High level overview:
 
@@ -22,30 +22,40 @@ High level overview:
 * Navigate to project home
 * Issue command (replace ENVIRONMENT_NAME with your environment) 'conda create --name ENVIRONMENT_NAME --file requirements.txt'
 
-# Running the files
-
-## asyncio solution
-
-Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
-  
-'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionMultiProcessing.py'
-
-## multiprocessing solution
-
-Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
-
-'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python app/src/solutions/SolutionAsyncio.py'
-
-## IDE
-
-If running solutions from IDE such as PyCharm ensure working directory is set to PROJECT_PARENT_DIR/data-engineer-technical-test/
-where PROJECT_PARENT_DIR is the dir project is contained.
-
 # Testing
 
 To run all tests navigate to data-engineer-technical-test dir and run 
 
 'python -m unittest' .
+
+# Running the solution files
+
+Run below commands from dir of cloned project.
+
+## asyncio solution
+
+Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
+  
+'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python src/app/solutions/SolutionAsyncIO.py'
+
+For example on MacOS if cloned project into ~ dir use:
+
+PYTHONPATH=~/data-engineer-technical-test python src/app/solutions/SolutionAsyncIO.py
+
+## multiprocessing solution
+
+Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
+
+'PYTHONPATH=PROJECT_PARENT_DIR/data-engineer-technical-test python src/app/solutions/SolutionMultiProcessing.py'
+
+For example on MacOS if cloned project into ~ dir use:
+
+PYTHONPATH=~/data-engineer-technical-test python src/app/solutions/SolutionMultiProcessing.py
+
+## IDE
+
+If running solutions from IDE such as PyCharm ensure working directory is set to PROJECT_PARENT_DIR/data-engineer-technical-test/
+where PROJECT_PARENT_DIR is the dir project is contained.
 
 # Watching for DB collection changes
 

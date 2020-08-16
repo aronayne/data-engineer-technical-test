@@ -5,7 +5,8 @@ from src.app.db.DBConnectionURIBuilder import DBConnectionURIBuilder
 
 
 """
-Use the context manager pattern to manage the connection to MongoDB
+Manage the connection to MongoDB.
+Uses the context manager pattern
 """
 class MongoDBConnection(object):
 
