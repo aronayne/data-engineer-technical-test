@@ -53,7 +53,8 @@ class TestSolutionMultiprocessing(unittest.TestCase):
         sensor_write_interval = 0
         sensor_read_interval = 0
 
-        """ starting more reads that writes in attempt to ensure queue is empty at end of test"""
+        """starting more read that write operations in attempt to ensure (not gauranteed) queue is empty at end of 
+        test """
         n_processes_write = 2
         n_processes_read = 5
 

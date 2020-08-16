@@ -151,10 +151,6 @@ class SolutionAsyncIO():
         await done
         subscriber.dispose()
 
-    # async def read_queue(self, sensor_data_queue, sensor_read_interval_seconds):
-    #     await self.read_item_from_queue(sensor_data_queue, sensor_read_interval_seconds)
-
-
 if __name__ == '__main__':
     """ initialise the sensor data queue """
     sensor_data_queue = asyncio.Queue()

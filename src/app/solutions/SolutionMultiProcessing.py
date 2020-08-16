@@ -14,7 +14,7 @@ from src.app.generator.TemperatureValueGenerator import TemperatureValueGenerato
 from src.app.utils.AppUtils import AppUtils
 
 """
-Creates, reads and writes the queue. Creates the random temperature generate and
+Creates, reads and write data to the queue. Creates the random temperature generate and
 enriches with temperature conversion.
 """
 class SolutionMultiProcessing():
@@ -115,7 +115,7 @@ class SolutionMultiProcessing():
     Parameters
     ----------
     sensor_data_queue: queue to write
-    sensor_write_interval: time interval in seconds between writes to the sensor_data_queue
+    sensor_write_interval: time interval in seconds between write operations to the sensor_data_queue
     n_processes: number of concurrent processes to write to sensor_data_queue
     max_queue_size: the max number of items to write to sensor_data_queue
     """
