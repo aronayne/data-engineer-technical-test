@@ -4,6 +4,7 @@ from src.app.dto.SensorContentCelsius import SensorContentCelsius
 """
 Builder class for the sensor instance reading DTO
 """
+
 class SensorInstanceBuilder():
     def __init__(self, sensor_instance, temperature_c):
         self.sensor_instance = sensor_instance

@@ -2,7 +2,6 @@
 Model the SensorInstance 'has a' relationship with 'content' attribute.
 """
 
-
 class SensorInstance():
     SENSOR_TYPE = "Sensor"
 

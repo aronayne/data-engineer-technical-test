@@ -37,11 +37,11 @@ class SolutionMultiProcessing():
         return self.logger
 
     """ 
-    Enrich the sensor instance data with temperature_c 
+    Enrich the sensor instance data with the Celsius attribute, temperature_c 
     
     Parameters
     ----------
-    sensor_instance: The sensor instance
+    sensor_instance: The sensor data instance reading
     """
     def enrich_sensor_instance_data(self, sensor_instance):
         temperature_f = sensor_instance.content.temperature_f
@@ -53,7 +53,7 @@ class SolutionMultiProcessing():
     
     Parameters
     ----------
-    sensor_instance: the sensor data instance
+    sensor_instance: The sensor data instance reading
     """
     def get_enriched_sensor_data(self, sensor_instance):
         sensor_instance_enriched = self.enrich_sensor_instance_data(sensor_instance)
@@ -175,6 +175,12 @@ class SolutionMultiProcessing():
 
 if __name__ == '__main__':
     multiprocessing_solution = SolutionMultiProcessing()
+
+    """
+    A manager to hold the sensor_data_queue instead of sharing the sensor_data_queue between processes 
+    but managers are 'slower than using shared memory' , 
+    src : https://docs.python.org/2/library/multiprocessing.html#pipes-and-queues 
+    """
     sensor_data_queue = Queue()
 
     """ Create and start the write queue processes """

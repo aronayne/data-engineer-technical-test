@@ -62,11 +62,11 @@ class SolutionAsyncIO():
         return next(self.sensor_instance_generator)
 
     """ 
-    Enrich the sensor instance data with temperature_c 
+    Enrich the sensor instance data with the Celsius attribute, temperature_c 
 
     Parameters
     ----------
-    sensor_instance: The sensor instance
+    sensor_instance: The sensor data instance reading
     """
     def enrich_sensor_instance_data(self, sensor_instance):
         temperature_f = sensor_instance.content.temperature_f
@@ -78,7 +78,7 @@ class SolutionAsyncIO():
 
     Parameters
     ----------
-    sensor_instance: the sensor data instance
+    sensor_instance: The sensor data instance reading
     """
     def get_enriched_sensor_data(self, sensor_instance):
         sensor_instance_enriched = self.enrich_sensor_instance_data(sensor_instance)
@@ -97,7 +97,7 @@ class SolutionAsyncIO():
             conn.db.technicalTestCollection.insert_one(item)
 
     """ 
-    Yield a sensor data reading
+    Yield an enriched sensor data reading to include the temperature_c attribute
 
     Parameters
     ----------
@@ -115,7 +115,7 @@ class SolutionAsyncIO():
             await asyncio.sleep(sensor_write_interval_seconds)
 
     """ 
-    Read an item from the queue and insert to DB
+    Read an item from the queue and insert into database
     
     Reading from the queue is tightly coupled with DB insertion.
     It appears easier to achieve loose coupling using asyncio as can populate and return a queue containing

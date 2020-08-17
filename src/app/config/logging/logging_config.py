@@ -1,6 +1,8 @@
 import logging
-from logging.config import dictConfig
 
+"""
+Global variable to store the logging configuration for the app.
+"""
 logging_config = dict(
     version = 1,
     formatters = {
