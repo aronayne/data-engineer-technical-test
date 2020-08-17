@@ -1,5 +1,5 @@
 """
-Modification of the sensor instance 'content' attribute to include celsius measurement.
+Modification of the sensor instance 'content' attribute to include Celsius measurement.
 """
 
 class SensorContentCelsius():
