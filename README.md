@@ -23,7 +23,8 @@ High level overview:
 * Issue command (replace ENVIRONMENT_NAME with your environment) 'conda create --name ENVIRONMENT_NAME --file requirements.txt'
 
 Activate the newly created environment: ' conda activate ENVIRONMENT_NAME '
-# Testing
+
+# Running Tests
 
 To run all tests navigate to data-engineer-technical-test dir and run 
 
