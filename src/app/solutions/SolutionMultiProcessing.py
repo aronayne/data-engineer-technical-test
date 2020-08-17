@@ -72,9 +72,11 @@ class SolutionMultiProcessing():
 
         for write_queue_epoch in range(0, max_queue_size):
             sensor_instance = self.get_sensor_data()
-            print("SolutionMultiProcessing - Sensor generated temperature_f value :", str(sensor_instance.content.temperature_f))
+            print("SolutionMultiProcessing - Sensor generated temperature_f value :",
+                  str(sensor_instance.content.temperature_f))
             print('SolutionMultiProcessing - Writing item to queue')
-            sensor_data_queue.put(self.get_enriched_sensor_data(sensor_instance))
+            enriched_sensor_data = self.get_enriched_sensor_data(sensor_instance)
+            sensor_data_queue.put(enriched_sensor_data)
             time.sleep(time_interval)
 
     """ 
