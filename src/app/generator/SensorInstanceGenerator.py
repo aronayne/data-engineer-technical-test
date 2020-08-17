@@ -10,12 +10,12 @@ Generator of sensor data which invokes the random value temperature value genera
 """
 class SensorInstanceGenerator(Generator):
     def __init__(self):
-        self.f = TemperatureValueGenerator()
+        self.temperature_value_generator = TemperatureValueGenerator()
         self.guid = None
 
     def send(self, ignored_arg):
 
-        random_f_temp = next(self.f)
+        random_f_temp = next(self.temperature_value_generator)
         now = datetime.now()
         dt_string = now.strftime("%Y-%m-%dT%H:%M:%S")
 
