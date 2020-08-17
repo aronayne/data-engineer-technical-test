@@ -11,6 +11,7 @@ class TemperatureValueGeneratorTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
+        """ Setup """
         cls.temperatureValueGenerator = TemperatureValueGenerator(True)
 
     """ Test the generate temperature values """
@@ -18,6 +19,7 @@ class TemperatureValueGeneratorTests(unittest.TestCase):
 
         print('**** TemperatureValueGeneratorTests - running test test_test_generate_valueswrite ****')
 
+        """ Assert """
         assert next(self.temperatureValueGenerator) == 89
         assert next(self.temperatureValueGenerator) == 96
         assert next(self.temperatureValueGenerator) == 86

@@ -17,16 +17,17 @@ class DtoStructureIntegrationTests(unittest.TestCase):
 
         print('**** DtoStructureIntegrationTests - running test test_dto_structure ****')
 
+        """ Setup """
         sensor_instance_generator = SensorInstanceGenerator()
         sensor_instance = next(sensor_instance_generator)
-
         sensor_instance_enriched = SensorInstanceBuilder(sensor_instance , 23).build()
-
         sensor_instance_enriched_json = json.dumps(sensor_instance_enriched, cls=SensorIntanceEncoder)
         sensor_instance_enriched_object = json.loads(sensor_instance_enriched_json)
         with MongoDBConnection() as conn:
             conn.db.technicalTestCollection.insert_one(sensor_instance_enriched_object)
         find_query = { "id": sensor_instance_generator.get_guid()}
+
+        """ Assert """
         with MongoDBConnection() as conn:
             results = conn.db.technicalTestCollection.find(find_query)
             top_level_results_keys = list(results[0].keys())
@@ -42,6 +43,7 @@ class DtoStructureIntegrationTests(unittest.TestCase):
 
             self.assertEqual(results[0]['type'], SensorInstance.SENSOR_TYPE)
 
+        """ Cleanup """
         with MongoDBConnection() as conn:
             conn.db.technicalTestCollection.delete_one(find_query)
             find_query = { "id": sensor_instance_generator.get_guid()}

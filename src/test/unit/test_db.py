@@ -14,9 +14,11 @@ class DBUnitTests(unittest.TestCase):
 
         print('**** DBUnitTests - running test test_save ****')
 
+        """ Setup """
         db_conn = me.connect(db='mongotest', host='mongomock://localhost')
-
         sensor_instance_content = SensorInstanceContent()
         sensor_instance_content.save()
+
+        """ Assert """
         assert len(SensorInstanceContent.objects()) == 1
 

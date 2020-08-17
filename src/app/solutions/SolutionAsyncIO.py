@@ -32,7 +32,7 @@ class SolutionAsyncIO():
     def random_generator(self):
         return next(self.temperature_value_generator)
 
-        """ 
+    """ 
     Write an item to the asyncio queue
 
     Parameters
