@@ -3,14 +3,14 @@
 Solutions using multiprocessing and asyncio are provided.
 
 
-## multiprocessing solution
+## Multiprocessing solution
 
 High level overview:
 
 ![ScreenShot](https://raw.githubusercontent.com/aronayne/data-engineer-technical-test/master/readme-images/multiprocessing.png)
 
 
-## asycnio solution
+## AsycnIO solution
 
 High level overview:
 
@@ -33,7 +33,7 @@ To run all tests navigate to data-engineer-technical-test dir and run
 
 Run below commands from dir of cloned project.
 
-## asyncio solution
+## Running AsyncIO solution
 
 Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
   
@@ -43,7 +43,7 @@ For example on MacOS if cloned project into ~ dir use:
 
 PYTHONPATH=~/data-engineer-technical-test python src/app/solutions/SolutionAsyncIO.py
 
-## multiprocessing solution
+## Running Multiprocessing solution
 
 Issue command (replace PROJECT_PARENT_DIR with parent dir of project):
 
