@@ -27,7 +27,7 @@ Activate the newly created environment: ' conda activate ENVIRONMENT_NAME '
 ## Database connection setup
 
 Utilises cloud mongoDB (https://www.mongodb.com/) .
-Database credentials are stored in src/app/config/AppConfig.py
+Database credential values are read from src/app/config/AppConfig.py
 
 mongo_db_username = ****
 
