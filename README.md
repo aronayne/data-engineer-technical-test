@@ -77,7 +77,7 @@ For example, on macOS if cloned project into ~ dir use:
 
 PYTHONPATH=~/data-engineer-technical-test python src/CollectionWatchUtility.py
 
-## IDE
+# IDE
 
 If running scripts or tests from an IDE such as PyCharm ensure working directory is set to PROJECT_PARENT_DIR/data-engineer-technical-test/
 where PROJECT_PARENT_DIR is the dir the project is contained.
